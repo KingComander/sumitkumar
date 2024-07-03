@@ -1,0 +1,176 @@
+header{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+header div a{
+    margin: 10px;
+    text-decoration: none;
+    color: darkgray;
+    font-size: 25px;
+}
+header div a:hover{
+    color: aqua;
+    text-decoration:underline;
+}
+
+.fcontainer{
+    background: cyan;
+    height: 25rem;
+    font-size: 50px;
+    text-align: center;
+    color: lightgray;
+    padding-top: 30px;
+}
+.fcontainer button{
+    color: #fff;
+    background: cyan;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    border-color: #fff;
+}
+.fstext span{
+    font-weight: 900;
+    color: #fff;
+}
+
+.main {
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    padding: 0 10rem;
+    margin: 50px 0;
+}
+    
+.card{
+    flex: 1 1 20rem;
+    height: 20rem;
+    background: red;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card .text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: cyan;
+    transform: translateY(-100%);
+    transition: 0.8s ease-in;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+}
+.text h1{
+    margin-top: 100px;
+    text-wrap: wrap;
+    font-size: 40px;
+}
+.text p{
+    margin-top: 30px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover .text{
+    transform: translateY(0);
+}
+
+.nocm{
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    grid-template-columns: 500px 500px;
+    background: lightgray;
+}
+.nocard{
+    box-shadow: 4px 4px 4px 4px black;
+    margin: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    height: 200px;
+    background: #fff;
+    border-radius: 25px;
+}
+.nocard h1{
+    font-size: 40px;
+}
+.nocard h3{
+    font-size: 25px;
+}
+
+.im{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto auto;
+    gap: 20px;
+    align-items: center;
+    margin: 30px 0;
+    
+}
+.imtext{
+    justify-self: center;
+
+}
+.imtext img{
+    border-radius: 25px;
+    height: 400px;
+    width: 600px;
+}
+.itext h3,p{
+    padding-bottom: 10px;
+}
+.itext h3{
+    font-size: 25px;
+}
+.itext p span{
+    color: aqua;
+}
+.itext p{
+    font-size: 20px;
+}
+.itext button{
+    color: #fff;
+    background: rgb(2, 153, 153);
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.tested{
+    margin-bottom: 60px;
+}
+.testdiv{
+    display: flex;
+    gap: 100px;
+}
+.testimg{
+    display: flex;
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+}
+.imgtest{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 100px;
+}
+.testp h3{
+    margin-right: 300px;
+}
