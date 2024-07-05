@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './page-not-found.component.css'
 })
 export class PageNotFoundComponent {
-
+// 404
 }
