@@ -3,6 +3,9 @@ import { title } from 'process';
 import { DevilComponent } from './devil/devil.component';
 import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ContactComponent } from './contact/contact.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 export const routes: Routes = [
     {
@@ -12,12 +15,15 @@ export const routes: Routes = [
         path:"about", component:AboutComponent, title:"About"
     },
     {
-        path:"service", component:ServiceComponent, title:"service"
-    // },
-    // {
-    //     path:"", component:, title:""
-    // },
-    // {
-    //     path:"", component:, title:""
+        path:"service", component:ServiceComponent, title:"Service"
+    },
+    {
+        path:"skills", component:SkillsComponent, title:"Skills"
+    },
+    {
+        path:"contact", component:ContactComponent, title:"Contact"
+    },
+    {
+        path:"**", component:PageNotFoundComponent, title:"Page Not Found"
     }
 ];
