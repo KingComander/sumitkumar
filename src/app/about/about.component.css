@@ -1,6 +1,7 @@
 header{
     position: fixed;
     width: 100%;
+    z-index: 650;
     height: 112.5px;
     padding: 30px 0;
     background: #000;
@@ -44,8 +45,18 @@ header{
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 .about .about-content .right a:hover{
     color: crimson;
     background: none;
 }
+
+footer{
+    background: black;
+    position: fixed;
+    height: 54px;
+    bottom: 0;
+    width: 100%;
+    z-index: 650;
+  }

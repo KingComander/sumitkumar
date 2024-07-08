@@ -43,6 +43,13 @@ section{
 footer{
     font-family: 'poppins',sans-serif;
 }
+.about,
+.services,
+.skills,
+.teams,
+.contact{
+  padding-top: 120px;
+}
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
