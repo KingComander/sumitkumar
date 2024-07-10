@@ -30,7 +30,7 @@ export const routes: Routes = [
     },
     {
         path:"Sreadmore", component:SreadmoreComponent, title:"skills"
-    }
+    },
     {
         path:"**", component:PageNotFoundComponent, title:"Page Not Found"
     }
