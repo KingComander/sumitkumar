@@ -26,10 +26,10 @@ export const routes: Routes = [
         path:"contact", component:ContactComponent, title:"Contact"
     },
     {
-        path:"Areadmore", component:AreadmoreComponent , title:"About"
+        path:"areadmore", component:AreadmoreComponent , title:"About"
     },
     {
-        path:"Sreadmore", component:SreadmoreComponent, title:"skills"
+        path:"sreadmore", component:SreadmoreComponent, title:"skills"
     },
     {
         path:"**", component:PageNotFoundComponent, title:"Page Not Found"
