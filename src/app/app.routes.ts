@@ -6,8 +6,8 @@ import { ServiceComponent } from './service/service.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { AreadmoreComponent } from './areadmore/areadmore.component';
 import { SreadmoreComponent } from './sreadmore/sreadmore.component';
+import { AreadmoreComponent } from './areadmore/areadmore.component';
 
 export const routes: Routes = [
     {
@@ -26,10 +26,10 @@ export const routes: Routes = [
         path:"contact", component:ContactComponent, title:"Contact"
     },
     {
-        path:"areadmore", component:AreadmoreComponent , title:"About"
+        path:"about/areadmore", component:AreadmoreComponent , title:"Read More"
     },
     {
-        path:"sreadmore", component:SreadmoreComponent, title:"skills"
+        path:"skills/sreadmore", component:SreadmoreComponent, title:"Read more"
     },
     {
         path:"**", component:PageNotFoundComponent, title:"Page Not Found"
