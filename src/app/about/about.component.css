@@ -28,6 +28,9 @@ header{
     margin-bottom: 10px;
 }
 .about .about-content .right .text{
+    color: black;
+}
+.about .about-content .right .text span{
     color: crimson;
 }
 .about .about-content .right p{

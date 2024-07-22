@@ -64,7 +64,7 @@ export class AppComponent implements OnInit {
     new Typed('.typing', options1);
 
     const options2 = {
-      strings: ["Web Developer", "Game Developer", "Blogger", "Designer", "Freelancer", "Gamer"],
+      strings: ["Web Developer","Designer", "Freelancer", "Gamer"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true
