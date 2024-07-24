@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   }
 
   private initializeScrollEffects() {
-    window.addEventListener('scroll', () => {
+    window.addEventListener('scroll', function() {
       const navbar = document.querySelector('.navbar');
       if (window.scrollY > 20) {
         navbar?.classList.add('sticky');
